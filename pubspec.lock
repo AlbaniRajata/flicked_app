@@ -49,6 +49,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+  dio:
+    dependency: "direct main"
+    description:
+      name: dio
+      sha256: "7d328c4d898a61efc3cd93655a0955858e29a0aa647f0f9e02d59b3bb275e2e8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.0.6"
   fake_async:
     dependency: transitive
     description:
@@ -70,11 +78,51 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.0"
+  flutter_riverpod:
+    dependency: "direct main"
+    description:
+      name: flutter_riverpod
+      sha256: "2885685ad4ff8c62e84b6295cc13c24c733164006edd2b4ac1204beec0e35e54"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.14.0+3"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: "70776c4541e5cacfe45bcaf00fe79137b8c61aa34fb5765a05ce6c57fd72c6e9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.14.3"
+  get_it:
+    dependency: "direct main"
+    description:
+      name: get_it
+      sha256: d85128a5dae4ea777324730dc65edd9c9f43155c109d5cc0a69cab74139fbac1
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.7.0"
+  http_parser:
+    dependency: transitive
+    description:
+      name: http_parser
+      sha256: "178d74305e7866013777bab2c3d8726205dc5a4dd935297175b19a23a2e66571"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.2"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: "1ce844379ca14835a50d2f019a3099f419082cfdd231cd86a142af94dd5c6bb1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.9.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -139,6 +187,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  riverpod:
+    dependency: transitive
+    description:
+      name: riverpod
+      sha256: "13cbe0e17b659f38027986df967b3eaf7f42c519786352167fc3db1be44eae07"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.14.0+3"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -160,6 +216,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.12.0"
+  state_notifier:
+    dependency: transitive
+    description:
+      name: state_notifier
+      sha256: "8fe42610f179b843b12371e40db58c9444f8757f8b69d181c97e50787caed289"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.7.2+1"
   stream_channel:
     dependency: transitive
     description:
@@ -192,6 +256,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.3"
+  typed_data:
+    dependency: transitive
+    description:
+      name: typed_data
+      sha256: f9049c039ebfeb4cf7a7104a675823cd72dba8297f264b6637062516699fa006
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.0"
   vector_math:
     dependency: transitive
     description:
