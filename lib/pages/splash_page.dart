@@ -2,8 +2,8 @@ import 'dart:convert';
 
 //Packages
 import 'package:flutter/material.dart';
-import 'package:get_it/get_it.dart';
 import 'package:flutter/services.dart';
+import 'package:get_it/get_it.dart';
 
 //Services
 import '../services/http_service.dart';
@@ -27,12 +27,13 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
-
   @override
   void initState() {
     super.initState();
     Future.delayed(Duration(seconds: 1)).then(
-      (_) => widget.onInitializationComplete(),
+      (_) => _setup(context).then(
+        (_) => widget.onInitializationComplete(),
+      ),
     );
   }
 
@@ -62,7 +63,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flickd',
+      title: 'Flicked',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: Center(
         child: Container(

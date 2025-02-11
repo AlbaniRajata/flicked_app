@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flickd',
+      title: 'Flicked',
       initialRoute: 'home',
       routes: {
         'home': (BuildContext _context) => MainPage(),
